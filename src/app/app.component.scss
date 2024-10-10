@@ -1,3 +1,7 @@
+*{
+    font-family: sans-serif;
+}
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -75,14 +79,6 @@
     display: block !important;
 }
 
-.imagenFondo{
-    width: 100%;
-    display: block;
-    object-fit: cover;
-    filter: brightness(0.6)  /* 60% de brillo */
-
-}
-
 .titulo{
     display: block;
     text-align: center;
@@ -102,6 +98,10 @@
     font-size: 17px;
 }
 
+.txtInf{
+    font-size: 16px;
+}
+
 .imagen{
     width: 100%;
     height: 400px;
@@ -109,9 +109,83 @@
     filter: brightness(0.6)  /* 60% de brillo */
 }
 
+.imagenFondo{
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);  /* 60% de brillo */
+    height: 493px; 
+    padding-bottom: 60px;
+}
+
+hr{
+    position: relative;
+    width: 50%;
+    height: 2px;
+    color: black;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*---------------------- TEXTO CENTRADO DENTRO DE LAS IMAGENES ---------------------------------*/
 
 
-/*Carousel*/
+.contenedorProm{
+    position: relative;
+}
+
+.contenedorProm p{
+    text-align: justify;
+}
+
+.centradoProm{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    color: white;
+    white-space: nowrap;
+}
+
+.contenedor{
+    position: relative;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 42px;
+    color: white;
+}
+
+.botonServicio{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: white;
+    background-color: #f47d1f;
+    padding: 18px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------- PROPIEDADES DEL CAROUSEL -------------------------------------------------------*/
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -202,6 +276,12 @@ body {
 
 @media (min-width: 100%) {
     .containerFeaturette{
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 100%) {
+    .container2{
         max-width: 100%;
     }
 }
