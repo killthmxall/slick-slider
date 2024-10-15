@@ -56,21 +56,21 @@
 
 - Expande la barra de búsqueda, selecciona `Everyone` y haz clic en `Agregar`
 
-![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img6.png?raw=true)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img7.png?raw=true)
 
 - Expande el nivel de permiso y selecciona el nivel que desees otorgar al usuario:
 
-![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img7.png?raw=true)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img8.png?raw=true)
 
 - Otra vez haz **clic derecho** sobre la carpeta a compartir y selecciona `Propiedades`
 
 - Dirígete a la sección `Compartir` y selecciona `Uso compartido avanzado`
 
-![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img8.png?raw=true)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img9.png?raw=true)
 
 - Habilita la casilla `Compartir esta carpeta` y da clic sobre Aplicar y Aceptar.
 
-![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img9.png?raw=true)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img10.png?raw=true)
 
 
 ### 4. Verificar la carpeta compartida desde otra computadora
@@ -79,7 +79,7 @@
 
 - Deberá aparecer el Equipo configurado que comparte la carpeta:
 
-![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img10.png?raw=true)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img11.png?raw=true)
 
 ### No aparece la computadora con las carpetas compartidas
 
@@ -91,6 +91,6 @@ Este problema suele aparecer cuando no se habilita el `Soporte para Compartir Ar
 
 - Expande la casilla y habilita las demás casillas:
 
-![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img11.png?raw=true)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img12.png?raw=true)
 
 - Reinicia el Equipo
