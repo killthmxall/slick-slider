@@ -3,16 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { VistasComponent } from './vistas/vistas.component';
+import { VistaPrincipalComponent } from './vista-principal/vista-principal.component';
+import { GridComponent } from './grid/grid.component';
+
+/* Se importa un nuevo módulo para el manejo de la directiva [(ngModel)]*/
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    VistasComponent
+    VistaPrincipalComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

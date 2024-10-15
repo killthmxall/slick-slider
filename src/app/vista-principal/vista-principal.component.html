@@ -1,0 +1,346 @@
+
+
+<!------------------------------------------------------ LOGO DEL SITIO ------------------------------------------------------>
+<div class="px-0 py-4 my-0 text-center">
+  <img class="d-block mx-auto mb-4" src="../assets/images/logo.png" width="300px" height="auto">
+</div>
+
+<!------------------------------------------------------ ELEMENTO DROPDOWN DEL SITIO ------------------------------------------------------>
+<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="check2" viewBox="0 0 16 16">
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+  </symbol>
+  <symbol id="circle-half" viewBox="0 0 16 16">
+    <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+  </symbol>
+  <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+    <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+    <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+  </symbol>
+  <symbol id="sun-fill" viewBox="0 0 16 16">
+    <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+  </symbol>
+</svg>
+
+<div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+  <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+          id="bd-theme"
+          type="button"
+          aria-expanded="false"
+          data-bs-toggle="dropdown"
+          aria-label="Toggle theme (auto)">
+    <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+    <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+        <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+        Light
+        <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+        <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+        Dark
+        <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+        <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#circle-half"></use></svg>
+        Auto
+        <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+      </button>
+    </li>
+  </ul>
+</div>
+
+<!------------------------------------------------------ HEADER PRINCIPAL DEL SITIO ------------------------------------------------------>
+<header data-bs-theme="dark">
+
+</header>
+
+<!------------------------------------------------------ MAIN DEL SITIO ------------------------------------------------------>
+<main>
+
+<!------------------------------------------------------ IMAGEN GIF DEL SITIO ------------------------------------------------------>
+
+<!--img loading="lazy" height="400" class="imagenFondo" alt="" src="https://webtest832.wordpress.com/wp-content/uploads/2024/05/fondoprincipal-ezgif.com-speed.gif" data-object-fit="cover"-->
+
+<!------------------------------------------------------ CAROUSEL DEL SITIO ------------------------------------------------------>
+
+<div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner"> <!---------------------------------------carousel-inner------------------------------------------->
+
+      <div class="carousel-item active">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="https://webtest832.wordpress.com/wp-content/uploads/2024/05/fondoprincipal-ezgif.com-speed.gif" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 class="titulo">Block Security es su aliado <br>
+              al momento de combinar la <br>
+              tecnología con la seguridad</h1>
+            <p class="subtitulo">Más de 20 años de experiencia, brindando el mejor servicio técnico especializado <br>
+              hacia nuestros clientes para un mayor enfoque tecnológico en su negocio.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>One more for good measure.</h1>
+            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div> <!--------------------------------------------------------------------------------------------------------------------->
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<!------------------------------------------------------ IMAGENES PROMOCIONALES DEL SITIO ------------------------------------------------------>
+<!-- ================================================== -->
+<!-- SE ENVUELVE TODO EN UN container PARA CENTRAR EL CONTENIDO -->
+
+<div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+      <div class="col">
+        <div class="contenedorProm">
+          <img class="imagen bd-placeholder-img card-img-top" src="https://webtest832.wordpress.com/wp-content/uploads/2024/05/ezgif.com-video-to-gif-converter.gif" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+          <br>
+          <div class="centradoProm">Diseño de proyectos</div>
+          <p class="txtInf">Ofrecemos asistencia en el diseño, fiscalización y diagramación de cualquier proyecto relacionado con la infraestructura tecnológica, garantizando una ejecución acorde a los más altos estándares. Supervisamos cada etapa del proyecto para asegurar su éxito total.</p>
+          <!--p><a class="btn btn-secondary" href="#">Detalles &raquo;</a></p-->
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="contenedorProm">
+          <img class="imagen bd-placeholder-img card-img-top" src="https://webtest832.wordpress.com/wp-content/uploads/2024/05/18031-287831468_small-ezgif.com-video-to-gif-converter.gif" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+          <br>
+          <div class="centradoProm">Implementación</div>
+          <p class="txtInf">Nuestro equipo está compuesto por personal altamente capacitado en la implementación de infraestructura tecnológica, asegurando eficiencia y calidad en cada proyecto. Nos especializamos en adaptar nuestras soluciones a las necesidades específicas de cada cliente.</p>
+          <!--p><a class="btn btn-secondary" href="#">Detalles &raquo;</a></p-->
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="contenedorProm">
+          <img class="imagen bd-placeholder-img card-img-top" src="https://webtest832.wordpress.com/wp-content/uploads/2024/05/serviciotecnico-ezgif.com-video-to-gif-converter.gif" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+          <br>
+          <div class="centradoProm">Servicio Técnico</div>
+          <p class="txtInf">Proporcionamos un servicio técnico de primer nivel para sistemas de infraestructura, asegurando su óptimo funcionamiento y ofreciendo soluciones rápidas y efectivas a cualquier problema. Nos comprometemos a mantener la continuidad operativa y la satisfacción del cliente.</p>
+          <!--p><a class="btn btn-secondary" href="#">Detalles &raquo;</a></p-->
+        </div>
+      </div>
+
+    </div><!-- /.row -->
+
+  </div><!-- /.container -->
+
+  <!------------------------------------------------------ SERVICIOS------------------------------------------------------>
+
+  <div class="container2"> <!------------------- container2 ----------------------------->
+
+    <hr class="featurette-divider">
+
+    <h1 class="titulo2">Nuestros servicios</h1>
+
+    <div class="contenedor">
+      <img loading="lazy" class="imagenFondo" alt="" src="https://webtest832.wordpress.com/wp-content/uploads/2024/05/download-8.gif" data-object-fit="cover">
+      <div class="centrado">Videovigilancia</div>
+      <button class="botonServicio">Conoce más</button>
+    </div>
+
+    <div class="contenedor">
+      <img loading="lazy" height="400" class="imagenFondo" alt="" src="https://webtest832.wordpress.com/wp-content/uploads/2024/05/download-2.gif" data-object-fit="cover">
+      <div class="centrado">Control de Acceso</div>
+      <button class="botonServicio">Conoce más</button>
+    </div>
+
+    <div class="contenedor">
+      <img loading="lazy" height="400" class="imagenFondo" alt="" src="https://webtest832.wordpress.com/wp-content/uploads/2024/05/download-3-2.gif" data-object-fit="cover">
+      <div class="centrado">IoT y automatización</div>
+      <button class="botonServicio">Conoce más</button>
+    </div>
+
+    <div class="contenedor">
+      <img loading="lazy" height="400" class="imagenFondo" alt="" src="https://webtest832.wordpress.com/wp-content/uploads/2024/05/download-7.gif" data-object-fit="cover">
+      <div class="centrado">Sistemas de detección de incendio</div>
+      <button class="botonServicio">Conoce más</button>
+    </div>
+
+    <div class="contenedor">
+      <img loading="lazy" height="400" class="imagenFondo" alt="" src="https://webtest832.wordpress.com/wp-content/uploads/2024/05/download-5.gif" data-object-fit="cover">
+      <div class="centrado">Cableado estructurado y Networking</div>
+      <button class="botonServicio">Conoce más</button>
+    </div> 
+
+    <div class="contenedor">
+      <img loading="lazy" height="400" class="imagenFondo" alt="" src="https://webtest832.wordpress.com/wp-content/uploads/2024/05/download-6.gif" data-object-fit="cover">
+      <div class="centrado">Distribución de audio y video</div>
+      <button class="botonServicio">Conoce más</button>
+    </div>
+
+  </div><!------------------- container2 ----------------------------->
+
+  <!------------------------------------------------------ GRID------------------------------------------------------>
+
+  <div class="container marketing">
+
+    <hr class="featurette-divider">
+
+    <h1 class="titulo3">Nuestros Clientes</h1>
+
+    <div class="contenedor">
+      <div class="grid grid-cols-5 grid-rows-5 gap-4">
+        <div >1</div>
+        <div >2</div>
+        <div >3</div>
+        <div >4</div>
+      </div>
+    </div>
+      
+      
+    <hr class="featurette-divider">
+
+    <h1 class="titulo3">Soporte de múltiples proveedores</h1>
+
+    <div class="contenedor">
+        <img loading="lazy" height="400" class="" alt="" src="https://webtest832.wordpress.com/wp-content/uploads/2024/05/1-1.png" data-object-fit="cover">
+    </div>
+
+  <!------------------------------------------------------FORM------------------------------------------------------>
+
+    <hr class="featurette-divider">
+
+    <h1 class="titulo3">¡Obtenga un asesoramiento hoy!</h1>
+
+    <div class="form1">
+        <form (ngSubmit)="enviar_formulario()" #formContact="ngForm">
+
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" name="nombre" class="form-control" placeholder="Ingrese su nombre completo" [(ngModel)]="persona.nombre" required #name="ngModel">
+            <div class="alert alert-danger mt-2" [hidden]="name.valid == true || name.pristine">
+              El nombre es obligatorio
+            </div>
+
+            <label for="email">Correo electrónico</label>
+            <input type="email" name="email" class="form-control" placeholder="Ingrese su correo electrónico" [(ngModel)]="persona.correo" required #correo="ngModel">
+            <div class="alert alert-danger mt-2" [hidden]="correo.valid == true || correo.pristine">
+              El correo es obligatorio
+            </div>
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" name="telefono" class="form-control" placeholder="Ingrese su número de teléfono" [(ngModel)]="persona.telf" required #telf="ngModel">
+            <div class="alert alert-danger mt-2" [hidden]="telf.valid == true || telf.pristine">
+              El Teléfono es obligatorio
+            </div>
+
+            <label for="fecha">Fecha (DD-MM-AAAA)</label>
+            <input type="date" name="fecha" class = "form-control" [(ngModel)]="persona.fecha" required #fecha="ngModel">
+            <div class="alert alert-danger mt-2" [hidden]="fecha.valid == true || fecha.pristine">
+              La Fecha es obligatoria
+            </div>
+
+            <label for="notas">Nota</label>
+            <textarea name="notas" rows="4"></textarea>
+
+            <button class="botonForm btn" [disabled]="formContact.invalid">
+              Reservar cita
+            </button>
+        </form>
+    </div>
+  </div>
+
+  <!---->
+    <!-- START THE FEATURETTES 
+  <div class="container featurette">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
+        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
+        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
+        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!- /END THE FEATURETTES ->
+
+</div>  -->
+
+
+<!------------------------------------------------------ FOOTER ------------------------------------------------------>
+<div class="pie">
+  <footer class="container">
+  <p class="float-end"><a href="#">Back to top</a></p>
+  <p>&copy; 2017–2024 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</div>
+
+</main>
+
+<script src="./assets/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+

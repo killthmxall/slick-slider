@@ -92,6 +92,13 @@
     margin: 100px;
 }
 
+.titulo3{
+    display: block;
+    text-align: center;
+    font-size: 43px;
+    margin: 30px;
+}
+
 .subtitulo{
     display: block;
     text-align: center;
@@ -175,11 +182,67 @@ hr{
     font-weight: bold;
 }
 
+/*----------------------------------------------------------FOOTER--------------------------------------------------------------------*/
+
 .pie{
     padding: 5%;
 }
 
+/*---------------------------------------------------------FORMULARIO-------------------------------------------------------------------*/
+.form1 {
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.radio-group label {
+    font-weight: normal;
+}
+.radio-group input {
+    margin-right: 10px;
+}
+
+.botonForm {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botonForm:hover {
+    background-color: #e65c00;
+}
 
 
 
