@@ -14,7 +14,7 @@
     - Nombre Completo del equipo
     - Grupo de Trabajo
 
-![](img1)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img1.png?raw=true)
 
 > [!NOTE]
 > Para compartir carpetas en red, todos los PCs deben estar en la misma red y en el mismo grupo de trabajo.
@@ -27,15 +27,15 @@
 
 - En la parte izquierda presiona sobre `Cambiar configuración de uso compartido avanzado`
 
-![](img2)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img2.png?raw=true)
 
 - O en configuraciones simplemente busca `Configuración avanzada de uso compartido`
 
-![](img3)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img3.png?raw=true)
 
 - Asegúrate que `Detección de redes` y `Uso compartido de archivos e impresoras` estén activos:
 
-![](img4)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img4.png?raw=true)
 
 - Expande `Todas las redes`
 
@@ -50,25 +50,25 @@
 
 - Selecciona `Conceder acceso a` y selecciona `Usuarios específicos...`
 
-![](img5)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img5.png?raw=true)
 
 - Expande la barra de búsqueda, selecciona `Everyone` y haz clic en `Agregar`
 
-![](img6)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img6.png?raw=true)
 
 - Expande el nivel de permiso y selecciona el nivel que desees otorgar al usuario:
 
-![](img7)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img7.png?raw=true)
 
 - Otra vez haz **clic derecho** sobre la carpeta a compartir y selecciona `Propiedades`
 
 - Dirígete a la sección `Compartir` y selecciona `Uso compartido avanzado`
 
-![](img8)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img8.png?raw=true)
 
 - Habilita la casilla `Compartir esta carpeta` y da clic sobre Aplicar y Aceptar.
 
-![](img9)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img9.png?raw=true)
 
 
 ### 4. Verificar la carpeta compartida desde otra computadora
@@ -77,7 +77,7 @@
 
 - Deberá aparecer el Equipo configurado que comparte la carpeta:
 
-![](img10)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img10.png?raw=true)
 
 ### No aparece la computadora con las carpetas compartidas
 
@@ -89,6 +89,6 @@ Este problema suele aparecer cuando no se habilita el `Soporte para Compartir Ar
 
 - Expande la casilla y habilita las demás casillas:
 
-![](img11)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img11.png?raw=true)
 
 - Reinicia el Equipo
