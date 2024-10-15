@@ -8,6 +8,7 @@
 - [x] Revisar la documentación de Eagle Eye Networks
 - [ ] Revisar la documentación de Brivo (Falta credenciales a Brivo Access para obtener el access_token)
 - [ ] Revisar la documentación de Netbox VM
+- [ ] Desarrollar una interfaz que consuma las APIs de cada servicio, y en la que el usuario encuentre todo lo referente a sus dispositivos.
 
 ## Crear una carpeta compartida de Teams en local
 
