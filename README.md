@@ -10,11 +10,8 @@
 - Selecciona `Configuración avanzada del sistema`
 
 - Sitúate sobre `Nombre del equipo` y verifica:
+        
+    - Nombre Completo del equipo
+    - Grupo de Trabajo
 
-```
-Nombre Completo del equipo
-```
 
-```
-Grupo de Trabajo
-```
