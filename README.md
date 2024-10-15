@@ -1,6 +1,12 @@
 
 # Block Security
 
+## Proyecto
+
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/proyecto.png?raw=true)
+
+
+
 ## Crear una carpeta compartida de Teams en local
 
 ### 1. Verificar el nombre de la computadora y el grupo de trabajo
