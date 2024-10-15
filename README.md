@@ -6,8 +6,7 @@
 ![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/proyecto.png?raw=true)
 
 - [x] Revisar la documentación de Eagle Eye Networks
-- [ ] Revisar la documentación de Brivo
-      - Falta credenciales a Brivo Access
+- [ ] Revisar la documentación de Brivo (Falta credenciales a Brivo Access para obtener el access_token)
 - [ ] Revisar la documentación de Netbox VM
 
 ## Crear una carpeta compartida de Teams en local
