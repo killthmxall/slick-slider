@@ -41,6 +41,8 @@
 
 - Activa la opción de `Uso compartido de carpetas públicas` y manten desactivada la opción de `Uso compartido protegido con contraseña`
 
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img5.png?raw=true)
+
 > [!IMPORTANT]
 > Si se activa la opción de `Uso compartido protegido con contraseña` será necesario tener el **Usuario** y la **Contraseña** de la computadora a la que se quiere acceder.
 
@@ -50,7 +52,7 @@
 
 - Selecciona `Conceder acceso a` y selecciona `Usuarios específicos...`
 
-![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img5.png?raw=true)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img6.png?raw=true)
 
 - Expande la barra de búsqueda, selecciona `Everyone` y haz clic en `Agregar`
 
