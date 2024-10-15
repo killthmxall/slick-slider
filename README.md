@@ -83,9 +83,13 @@
 
 - Abre el `Explorador de Archivos` y selecciona `Red`
 
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img12.png?raw=true)
+
 - Deberá aparecer el Equipo configurado que comparte la carpeta:
 
-![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img12.png?raw=true)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img13.png?raw=true)
+
+---
 
 ### No aparece la computadora con las carpetas compartidas
 
@@ -97,6 +101,6 @@ Este problema suele aparecer cuando no se habilita el `Soporte para Compartir Ar
 
 - Expande la casilla y habilita las demás casillas:
 
-![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img13.png?raw=true)
+![](https://github.com/killthmxall/Block-Security/blob/main/assets/imagenes%20readme/img14.png?raw=true)
 
 - Reinicia el Equipo
